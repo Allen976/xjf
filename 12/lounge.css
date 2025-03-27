@@ -16,3 +16,10 @@ border-bottom: 1px solid black;
 em {
   font-family: "Cascadia Mono"; /* 注意双引号这个细节，想想原因 */
 }
+body{
+	color: lightgoldenrodyellow;
+	color: rgb(19,44,51);
+	color: #4169E1CC;
+	color: rgba(39,177,182,0.8);
+	color: #2775b6CC;
+}
