@@ -14,46 +14,78 @@ h1 {
 h2 {
 	font-size: 1.3em;
 }
-.guarantee {
-  border-color:        white;
-  border-width:        1px;
-  border-style:        dashed;
-  background-color:    #a7cece;
-  padding:             25px;
-  margin:              30px;
-  line-height: 1.9em;
-  font-style: italic;
-  color: #444444;
-  font-family:Georgia, "Times New Roman";
-  background-image: url(images/background.gif);
-    background-repeat: no-repeat;
-    background-position: top left;
-    padding: 25px;
-    padding-left: 80px;
-    margin-right: 250px;
-    border-top-right-radius: 3em;
-    border-bottom-left-radius: 3em;
-  }
-  .elixirs {
-    border-width: thin;
-    border-style: solid;
-    border-color: #007e7e;
-    width: 200px;
-    padding-right:   20px；
-	padding-bottom:  20px;
-	padding-left:    20px;
-	
-	margin-left:     20px;
-  background-image:    url(images/cocktail.gif);
-	background-repeat:   repeat-x;
-
-	text-align:          center;  /* 文本剧中对齐 */
-  line-height: 1em;
-  line-height: 1;
+p, h2  {
+	margin: 0%;
+	padding: 0%;
 }
-.elixirs h2{
-  color:black;
-  }
-  .elixirs h3{
-    color:#d12c47;
-  }
+.guarantee {
+	border-color: white;
+	border-width: 1px;
+	border-style: dashed;
+	background-color: #a7cece;
+	padding: 25px;
+	margin: 30px;
+	line-height:1.9em ;
+	font-style: italic;
+	color: #444444;
+	font-family: Georgia,"Times New Roman";
+}
+.guarantee{
+	background-image: 
+	url(images/background.gif);
+}
+.guarantee{
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+.guarantee{
+	padding: 25px;
+	padding-left: 80px;
+}
+.guarantee{
+	margin-right: 250px;
+}
+.guarantee{
+	border-style: outset;}
+.guarantee{
+	border-width: medium;
+}
+.guarantee{
+	border-color: white;
+}
+.guarantee{
+	border-top-color: black;
+}
+.guarantee{
+		border-bottom-style: dashed;
+	}
+.guarantee{
+	border-left-width: thick;
+}
+.guarantee{
+	border-top-right-radius: 2em;
+}
+.guarantee{
+	border-bottom-left-radius:2em ;
+}
+.elixirs{
+	border-width: thin;
+	border-style: solid;
+	border-color: #007e7e;
+	width: 200px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	margin-left: 20px;
+	background-image: 
+	url(images/cocktail.gif);
+	background-repeat: repeat-x;
+	text-align: center;
+}
+h1, h2 {
+	font-weight: 600;
+}
+
+	h1 {
+		font-weight: 200;
+	}
