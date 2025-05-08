@@ -43,3 +43,8 @@ body {
   text-decoration: none;
   border-radius: 3px;
 }
+
+.impg img {
+  width: 300px;
+  height:600px;
+}
