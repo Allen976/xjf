@@ -48,3 +48,6 @@ body {
   width: 300px;
   height:600px;
 }
+img {
+  margin-left: -80px; /* 这里的 -10px 表示向左移动10像素，可根据实际需求调整数值 */
+}
