@@ -36,12 +36,15 @@ body {
 }
 
 .btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-  text-decoration: none;
-  border-radius: 3px;
+  background-color: #009933; /* 设置背景颜色 */
+  border: none; /* 去掉默认边框 */
+  color: white; /* 文字颜色设为白色 */
+  padding: 10px 20px; /* 内边距，可根据实际调整按钮大小 */
+  text-align: center; /* 文字水平居中 */
+  text-decoration: none; /* 去掉文字下划线 */
+  display: inline-block; /* 行内块元素，可设置宽高且不独占一行 */
+  font-size: 16px; /* 字体大小 */
+  border-radius: 5px; /* 圆角，让按钮边缘呈圆角 */
 }
 
 .impg img {

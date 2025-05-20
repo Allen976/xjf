@@ -84,3 +84,84 @@ p {
   color: #fff;
   text-decoration: none;
 }
+/* 重置一些默认样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex; /* 开启弹性布局，让子元素水平排列 */
+  flex-wrap: wrap; /* 允许子元素换行 */
+}
+
+.item {
+  width: calc(25% - 20px); /* 假设每行4个卡片，减去一些间距，可按需调整 */
+  margin: 10px; /* 卡片之间的间距 */
+  display: flex;
+  flex-direction: column; /* 子元素垂直排列 */
+  border: 1px solid #ccc; /* 可选，添加边框 */
+  overflow: hidden; /* 防止内容溢出 */
+}
+
+.item img {
+  width: 100%; /* 图片宽度撑满卡片 */
+  height: auto;
+}
+
+.item h3 {
+  padding: 10px; /* 标题内边距 */
+}
+
+.item span {
+  padding: 0 10px 10px; /* 文本内边距 */
+}
+.collectibles-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.collectibles-item {
+  width: 25%; /* 假设每行4个，可按需调整 */
+  padding: 10px;
+  position: relative; /* 为子元素绝对定位做准备 */
+}
+
+.collectibles-item img {
+  width: 100%;
+  height: auto;
+}
+
+.collectibles-item .label,
+.collectibles-item .title {
+  position: absolute;
+  bottom: 10px; /* 距离底部10px，可调整 */
+  left: 10px; /* 距离左边10px，可调整 */
+  background-color: rgba(0, 0, 0, 0.7); /* 半透明黑色背景 */
+  color: white;
+  padding: 5px;
+}
+
+.collectibles-item .title {
+  left: auto; /* 取消左边距，从右边开始 */
+  right: 10px; /* 距离右边10px，可调整 */
+}
+.wallpaper-info {
+  display: flex; /* 使用弹性盒模型布局 */
+  flex-direction: column; /* 垂直排列子元素 */
+  justify-content: center; /* 垂直方向居中对齐 */
+  align-items: flex-start; /* 水平方向左对齐 */
+}
+
+.word1 {
+  order: 1; /* 调整顺序，先显示 */
+}
+
+.word2 {
+  order: 2; /* 调整顺序，中间显示 */
+}
+
+.word3 {
+  order: 3; /* 调整顺序，最后显示 */
+}
