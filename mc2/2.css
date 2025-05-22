@@ -38,17 +38,21 @@ p {
 .arrow-buttons {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
-.prev-button,
+.prev-button, /*左下两个→*/
 .next-button {
   background-color: transparent;
   border: none;
   color: #fff;
-  font-size: 24px;
+  font-size: 30px;
   cursor: pointer;
 }
+.next-button{
+  margin-right: 70%;
+}
+
 
 .right-section {
   width: 70%;
@@ -133,20 +137,6 @@ p {
   height: auto;
 }
 
-.collectibles-item .label,
-.collectibles-item .title {
-  position: absolute;
-  bottom: 10px; /* 距离底部10px，可调整 */
-  left: 10px; /* 距离左边10px，可调整 */
-  background-color: rgba(0, 0, 0, 0.7); /* 半透明黑色背景 */
-  color: white;
-  padding: 5px;
-}
-
-.collectibles-item .title {
-  left: auto; /* 取消左边距，从右边开始 */
-  right: 10px; /* 距离右边10px，可调整 */
-}
 .wallpaper-info {
   display: flex; /* 使用弹性盒模型布局 */
   flex-direction: column; /* 垂直排列子元素 */
@@ -154,14 +144,3 @@ p {
   align-items: flex-start; /* 水平方向左对齐 */
 }
 
-.word1 {
-  order: 1; /* 调整顺序，先显示 */
-}
-
-.word2 {
-  order: 2; /* 调整顺序，中间显示 */
-}
-
-.word3 {
-  order: 3; /* 调整顺序，最后显示 */
-}
