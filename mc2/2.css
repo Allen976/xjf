@@ -1,146 +1,163 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #000;
-  color: #fff;
-}
-
-.container {
-  display: flex;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.left-section {
-  width: 30%;
-}
-
-h1 {
-  margin-bottom: 20px;
-}
-
-p {
-  margin-bottom: 20px;
-}
-
-.see-all-link {
-  color: #4CAF50;
-  text-decoration: none;
-}
-
-.arrow-buttons {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-}
-
-.prev-button, /*左下两个→*/
-.next-button {
-  background-color: transparent;
-  border: none;
-  color: #fff;
-  font-size: 30px;
-  cursor: pointer;
-}
-.next-button{
-  margin-right: 70%;
-}
-
-
-.right-section {
-  width: 70%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.wallpaper-item {
-  width: 48%;
-  margin-bottom: 20px;
-  position: relative;
-}
-
-.wallpaper-item img {
-  width: 100px;
-  height: auto;
-}
-
-.wallpaper-info {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.download-link {
-  color: #fff;
-  text-decoration: none;
-}
-/* 重置一些默认样式 */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.wrapper {
-  display: flex; /* 开启弹性布局，让子元素水平排列 */
-  flex-wrap: wrap; /* 允许子元素换行 */
-}
-
-.item {
-  width: calc(25% - 20px); /* 假设每行4个卡片，减去一些间距，可按需调整 */
-  margin: 10px; /* 卡片之间的间距 */
-  display: flex;
-  flex-direction: column; /* 子元素垂直排列 */
-  border: 1px solid #ccc; /* 可选，添加边框 */
-  overflow: hidden; /* 防止内容溢出 */
-}
-
-.item img {
-  width: 100%; /* 图片宽度撑满卡片 */
-  height: auto;
-}
-
-.item h3 {
-  padding: 10px; /* 标题内边距 */
-}
-
-.item span {
-  padding: 0 10px 10px; /* 文本内边距 */
-}
-.collectibles-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.collectibles-item {
-  width: 25%; /* 假设每行4个，可按需调整 */
-  padding: 10px;
-  position: relative; /* 为子元素绝对定位做准备 */
-}
-
-.collectibles-item img {
-  width: 100%;
-  height: auto;
-}
-
-.wallpaper-info {
-  display: flex; /* 使用弹性盒模型布局 */
-  flex-direction: column; /* 垂直排列子元素 */
-  justify-content: center; /* 垂直方向居中对齐 */
-  align-items: flex-start; /* 水平方向左对齐 */
-}
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    width: 2000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .left-section {
+    width: 50%; /* 增加left-section的宽度 */
+    padding: 20px;
+    padding-left:100px ;
+  }
+  .left-section p{
+    font-size: 20px; /* 调整文字大小 */
+    font-weight: 300; /* 调整文字粗细 */
+  }
+  
+  
+  h1 {
+    margin-bottom: 20px;
+    font-family: "MinecraftTenv2","MinecraftTen","Noto Sans","Helvetica Neue","Helvetica","Arial","sans-serif"
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  .see-all-link {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .arrow-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .prev-button, /*左下两个→*/
+  .next-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .next-button{
+    margin-right: 70%;
+  }
+  
+  
+  .right-section {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .wallpaper-item {
+    width: 48%;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .wallpaper-item img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .wallpaper-info {
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; /* 向右移动5像素 */
+    right: 10px; /* 向左移动5像素 */
+    background-color: rgb(28, 27, 27);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .download-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  /* 重置一些默认样式 */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    display: flex; /* 开启弹性布局，让子元素水平排列 */
+    flex-wrap: wrap; /* 允许子元素换行 */
+  }
+  
+  .item {
+    width: calc(25% - 20px); /* 假设每行4个卡片，减去一些间距，可按需调整 */
+    margin: 10px; /* 卡片之间的间距 */
+    display: flex;
+    flex-direction: column; /* 子元素垂直排列 */
+    border: 1px solid #ccc; /* 可选，添加边框 */
+    overflow: hidden; /* 防止内容溢出 */
+  }
+  
+  .item img {
+    width: 100%; /* 图片宽度撑满卡片 */
+    height: auto;
+  }
+  
+  .item h3 {
+    padding: 10px; /* 标题内边距 */
+  }
+  
+  .item span {
+    padding: 0 10px 10px; /* 文本内边距 */
+  }
+  .collectibles-container {
+    display: flex;
+    flex-wrap: nowrap; /* 禁止自动换行 */
+  }
+  
+  .collectibles-item {
+    width: 300px; /* 假设每行4个，可按需调整 */
+    padding: 10px;
+    position: relative; /* 为子元素绝对定位做准备 */
+  }
+  
+  .collectibles-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .wallpaper-info {
+    display: flex; /* 使用弹性盒模型布局 */
+    flex-direction: column; /* 垂直排列子元素 */
+    justify-content: center; /* 垂直方向居中对齐 */
+    align-items: flex-start; /* 水平方向左对齐 */
+  }
+  .text{
+    font-size: 24px; /* 调整文字大小 */
+    font-weight: 400; /* 调整文字粗细 */
+    padding: 0px;
+    margin: 0px;
+  }
+  .text-a{
+    margin: 5px 0 0 0; /* 向下移动5像素 */
+    margin: 5px;
+  }

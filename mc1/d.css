@@ -23,16 +23,25 @@ body {
 }
 
 .right-section {
+  position: relative;
+  top: 0px;
+  left: 40px;
   width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .right-section h1 {
-  font-size: 2em;
+  font-size: 3em;
   margin-bottom: 20px;
+  display: block;
+  /* width: 500px; */
+  white-space: nowrap; /* 强制文字不换行 */
 }
 
 .right-section p {
   margin-bottom: 20px;
+  white-space: nowrap;
 }
 
 .btn {
@@ -43,8 +52,9 @@ body {
   text-align: center; /* 文字水平居中 */
   text-decoration: none; /* 去掉文字下划线 */
   display: inline-block; /* 行内块元素，可设置宽高且不独占一行 */
-  font-size: 16px; /* 字体大小 */
-  border-radius: 5px; /* 圆角，让按钮边缘呈圆角 */
+  font-size: 17px; /* 字体大小 */
+  border: 2px solid #333; /* 深灰色边框 */
+  letter-spacing: 1px; /* 字母间距 */
 }
 
 .impg img {
@@ -53,4 +63,17 @@ body {
 }
 img {
   margin-left: -80px; /* 这里的 -10px 表示向左移动10像素，可根据实际需求调整数值 */
+}
+
+.picture
+{
+  position: relative;
+  
+  width: 800px;
+}
+.btn:hover {
+  background-color: #333; /* 悬停时深灰色背景 */
+  color: #fff; /* 悬停时白色文字 */
+  transform: translateY(-2px); /* 轻微上浮效果 */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* 阴影效果 */
 }
